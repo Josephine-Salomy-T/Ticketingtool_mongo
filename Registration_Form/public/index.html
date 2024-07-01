@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <img src="/san.png" id="logo">
+  <hr>
+
+    <div id="mainBody">
+            <div id="mainContent">
+                <form action="/sign_up" method="POST" id="helpdeskform">
+                    <h2> Registration Form</h2>
+                    <label> Name</label><br>
+                    <input type="text" class="box" id="name" name="name" placeholder="Name" required/>
+                    <br>
+                    <label>Password</label><br>
+                    <input type="password" class="box" id="password" name="password" placeholder="Password" required/>
+                    <br>
+                    <label>Email</label><br>
+                    <input type="email" class="box" id="email" name="email" placeholder="EmailId" required/>
+                    <br>
+                    <label>Contact</label><br>
+                    <input type="number" class="box" id="phno" name="phno" placeholder="Mobile" required/>
+                    <br>
+                    <label>Priority</label><br>
+                    <select id="priority" name="priority" placeholder="Priority">
+                        <option disabled value="">Please select one</option>
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                        <option>Urgent</option>
+                      </select><br>
+                    <br>
+                    <label>Subject</label><br>
+                    <input type="text" id="subject" name="subject"/><br>
+                    <label>Description </label><br>
+                    <span></span>
+                    <textarea id="description" name="description" placeholder="Describe the issue in detail." rows="4" cols="53"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" id="submit" />
+                </form>
+            </div>
+    </div>
+    
+</body>
+</html>

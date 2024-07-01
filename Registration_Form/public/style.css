@@ -1,0 +1,14 @@
+
+.dataTable{
+    
+    border-collapse: collapse;
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    
+}
+.dataTable th, .dataTable td{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid silver;
+}
